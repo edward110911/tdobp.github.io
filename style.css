@@ -1,0 +1,28 @@
+
+   img{
+   width: 23px;
+   height: 23px;
+  }
+
+  a:link {
+  text-decoration: none;
+  
+  }
+  
+ nav.static {
+    position: static;
+    border: 3px solid #73AD21;
+
+}
+
+div.item {
+  width:px ;
+  height:px;
+
+}
+ 
+footer {
+        padding: 10px 20px;
+        background: #666;
+        color: white;
+      }
