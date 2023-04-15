@@ -2,6 +2,7 @@
    img{
    width: 23px;
    height: 23px;
+    -webkit-user-drag: none;
   }
 
   a:link {
