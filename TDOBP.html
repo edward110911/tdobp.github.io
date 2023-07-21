@@ -1,0 +1,243 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximun-scale=1, user-scalabe=no" >
+	<title>TDOBP</title>
+  <link href="https://www.tdobp.eu.org/page/img/logo1.png" rel="icon">
+	<link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+	<link href="https://www.tdobp.eu.org/page/css/footer-basic-centered.css" rel="stylesheet">
+	<script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="https://kit.fontawesome.com/b92e994837.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	<div id="web_bg" style="background-image: url(page/img/edc.png);"></div>
+
+	<div id="myCarousel" class="carousel slide">
+		<!-- 轮播（Carousel）指标 -->
+		<ol class="carousel-indicators">
+			<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+			<li data-target="#myCarousel" data-slide-to="1"></li>
+			<li data-target="#myCarousel" data-slide-to="2"></li>
+		</ol>   
+		<!-- 轮播（Carousel）项目 -->
+		<div class="carousel-inner">
+			<div class="item active">
+				<img src="https://www.tdobp.eu.org/page/img/p1.png"  width="100%" height="" alt="First slide">
+			</div>
+			<div class="item">
+				<img src="https://www.tdobp.eu.org/page/img/p2.png" width="100%" height="" alt="Second slide">
+			</div>
+			<div class="item">
+				<img src="https://www.tdobp.eu.org/page/img/p3.png" width="100%" height="" alt="Third slide">
+			</div>
+		</div>
+		<!-- 轮播（Carousel）导航 -->
+		<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+			<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+			<span class="sr-only">Previous</span>
+		</a>
+		<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+			<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+			<span class="sr-only">Next</span>
+		</a>
+	</div> 
+	<br>
+	
+	<div class="col-md-4 form-group">
+		<span><img src="page/img/mq1.webp" width="100%" height=""/></span>
+</div>
+	<div class="col-md-4 form-group">
+		<span><img src="page/img/mq2.webp" width="100%" height=""/></span>
+	</div>
+	<div class="col-md-4 form-group">
+		<span><img src="page/img/mq3.webp" width="100%" height=""/></span>
+	</div>
+</div>	
+</div>
+
+<div align="center">
+	<!-- 提供额外的视觉效果，标识一组按钮中的原始动作 -->
+<button type="button" class="btn btn-primary"><i class="fa-solid fa-house-user"></i><a  style="color: inherit;"  href="https://youtu.be/8w20inT65jg">  微电影片头 </a></button>
+</div>
+<br>
+<div class="jumbotron" align="center">
+	<div class="container" >
+		<h2><i class="fa-brands fa-youtube"></i> 微电影片头-视频简介： </h2>
+		<p>Hi，大家好！这里是【托多普工作室群】制作的微电影片头。<br>
+			小编小贴士~: <br>
+			＊字幕已发布，但我们发现字幕还没有启用。<br>
+			＊由于音乐版权原因，此视频有可能随时下架。<br>
+			音乐：《笼》<br>
+			影片制作：TDOBP MUSIC STUDIO <br>
+							：TDOBP  VIDEO STUDIO <br>
+							：TDO MANAGEMENT SYSTEM STUDIO <br>
+			备用账户：<a href="https://www.youtube.com/channel/UC6sNPXovZxsnjO8VYUHEzrw">@tdobp_movie</a><br>
+			官方网站（TDO）： <a href="https://www.tdostudio.eu.org/"> https://www.tdostudio.eu.org/ </a><br>
+							（TDOBP）：<a href="https://www.tdobp.eu.org/"> https://www.tdobp.eu.org/ </a></p>
+							倒计时：
+							<!-- 在元素中显示倒数计时器 -->
+<p id="demo"></p>
+
+<script>
+// 设置我们倒计时的日期
+var countDownDate = new Date("July 22, 2023 15:00:00").getTime();
+
+// 每 1 秒更新一次倒计时
+var x = setInterval(function() {
+
+  // 获取今天的日期和时间
+  var now = new Date().getTime();
+
+  // 找出现在和倒计时日期之间的距离
+  var distance = countDownDate - now;
+
+  // 天、小时、分钟和秒的时间计算
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+  // 用 id="demo" 在元素中显示结果
+  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
+
+  // 如果倒计时结束，写一些文字
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "EXPIRED DATE!";
+  }
+}, 1000);
+</script>
+		
+	</div>
+</div>
+<br></br>
+
+<br></br><br></br>
+
+	
+	
+
+
+
+
+<nav class="navbar navbar-default navbar-fixed-bottom" role="navigation">
+	<div class="container-fluid"> 
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse"
+				data-target="#example-navbar-collapse">
+			<span class="sr-only">切换导航</span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		</button>
+        <a class="navbar-brand" href="#"><i class="fa-regular fa-font-awesome"></i> TDOBP <span class="badge">Beta</span></a>
+		
+    </div>
+    <div class="collapse navbar-collapse" id="example-navbar-collapse">
+        <ul class="nav navbar-nav">
+            <li class="active"><a href="#"><i class="fa-solid fa-house"></i> Home </a></li>
+            <li><a href="#"></a></li>
+            
+        </ul>
+    </div>
+	</div>
+</nav>
+
+<br></br><br></br>
+
+<style>
+.button-3 {
+  appearance: none;
+  background-color: #2ea44f;
+  border: 1px solid rgba(27, 31, 35, .15);
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  padding: 6px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
+  text-decoration: none;
+}
+
+.button-3:focus:not(:focus-visible):not(.focus-visible) {
+  box-shadow: none;
+  outline: none;
+}
+
+.button-3:hover {
+  background-color: #2c974b;
+}
+
+.button-3:focus {
+  box-shadow: rgba(46, 164, 79, .4) 0 0 0 3px;
+  outline: none;
+}
+
+.button-3:disabled {
+  background-color: #94d3a2;
+  border-color: rgba(27, 31, 35, .1);
+  color: rgba(255, 255, 255, .8);
+  cursor: default;
+}
+
+.button-3:active {
+  background-color: #298e46;
+  box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
+}
+
+.d1 a{
+color: inherit;
+text-decoration: none;
+
+}
+a:link {
+      text-decoration: none;
+}
+
+a:visited {
+      text-decoration: none;
+}
+
+a:hover {
+      text-decoration: none;
+}
+
+a:active {
+      text-decoration: none;
+}
+#web_bg{
+  position:fixed;
+  top: 0;
+  left: 0;
+  width:100%;
+  height:100%;
+  min-width: 1000px;
+  z-index:-10;
+  zoom: 1;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-position: center 0;
+}
+</style>
+</body>
+</html>
